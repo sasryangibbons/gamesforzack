@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/gamesforzack/static/css/main.291143e2.css",
+    "main.js": "/gamesforzack/static/js/main.a49e96d6.js",
+    "index.html": "/gamesforzack/index.html",
+    "main.291143e2.css.map": "/gamesforzack/static/css/main.291143e2.css.map",
+    "main.a49e96d6.js.map": "/gamesforzack/static/js/main.a49e96d6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.291143e2.css",
+    "static/js/main.a49e96d6.js"
+  ]
+}

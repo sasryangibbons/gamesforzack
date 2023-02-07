@@ -75,7 +75,7 @@ const RandomNumbers = () => {
             </div>
             <div className='gameBoxBottom'>
 
-                <input type='text' maxLength={String(number).length} value={numberTyped} onChange={handleChange} />
+                <input type="text" inputMode="numeric" pattern="[0-9]*" maxLength={String(number).length} value={numberTyped} onChange={handleChange} />
             </div>
 
 

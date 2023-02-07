@@ -100,7 +100,7 @@ const NumbersInOrder = () => {
             </div>
             <div className='gameBoxBottom'>
 
-                <input type='text' maxLength={String(number + 1).length} value={numberTyped} onChange={handleChange} />
+                <input type="text" inputMode="numeric" pattern="[0-9]*" maxLength={String(number + 1).length} value={numberTyped} onChange={handleChange} />
             </div>
 
 

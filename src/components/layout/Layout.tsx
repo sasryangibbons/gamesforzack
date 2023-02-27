@@ -5,10 +5,10 @@ import MainNavigation from './MainNavigation';
 
 const Layout: React.FC<{ children: React.ReactNode }> = (props) => {
     return (
-        <Fragment>
+        <div id='outer'>
             <MainNavigation />
-            <main className={classes.main}>{props.children}</main>
-        </Fragment>
+            <main id='page-wrap' className={classes.main}>{props.children}</main>
+        </div>
     );
 };
 

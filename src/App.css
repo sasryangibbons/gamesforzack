@@ -2,7 +2,7 @@
   border: 1px solid black;
   width: 8rem;
   display: inline-block;
-  font-size: 94px;
+  font-size: 72px;
   text-align: center;
 }
 
@@ -28,8 +28,8 @@
 }
 
 .gameBoxBottom input {
-  height: 94px;
-  font-size: 94px;
+  height: 72px;
+  font-size: 72px;
   width: 10rem;
 }
 
@@ -42,4 +42,33 @@
     width: 3rem;
     font-size: 50px;
   }
+}
+
+
+/* burger menu styles */
+
+.bm-burger-bars {
+  background: #fff;
+  border-radius: 10px;
+}
+
+.bm-burger-button {
+  position: absolute;
+  width: 36px;
+  height: 30px;
+  top: 1.5rem;
+  right: 1.5rem;
+}
+
+.bm-menu {
+  background: #fff;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+.countByForm label,
+.countByForm button {
+  display: block;
+  font-size: 1.5rem;
+  margin-bottom: .5rem;
 }

@@ -1,5 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import CountBy from './components/CountBy';
 import Layout from './components/layout/Layout';
 
 import Letters from './components/Letters';
@@ -18,6 +19,7 @@ function App() {
         <Route path='/numbers-in-order' element={<NumbersInOrder />} />
         <Route path='/abc' element={<Letters />} />
         <Route path='/words' element={<Words />} />
+        <Route path='/countby' element={<CountBy />} />
       </Routes>
     </Layout>
   )

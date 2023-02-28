@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/gamesforzack/static/css/main.99c0f108.css",
-    "main.js": "/gamesforzack/static/js/main.51aa49cd.js",
+    "main.js": "/gamesforzack/static/js/main.e341bed0.js",
     "index.html": "/gamesforzack/index.html",
     "main.99c0f108.css.map": "/gamesforzack/static/css/main.99c0f108.css.map",
-    "main.51aa49cd.js.map": "/gamesforzack/static/js/main.51aa49cd.js.map"
+    "main.e341bed0.js.map": "/gamesforzack/static/js/main.e341bed0.js.map"
   },
   "entrypoints": [
     "static/css/main.99c0f108.css",
-    "static/js/main.51aa49cd.js"
+    "static/js/main.e341bed0.js"
   ]
 }

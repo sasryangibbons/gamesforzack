@@ -53,6 +53,10 @@ const MainNavigation = () => {
                 <NavLink onClick={closeSideBar} className={(data) => data.isActive ? classes.active : ""} to='/countby' >
                     Count By __
                 </NavLink>
+
+                <NavLink onClick={closeSideBar} className={(data) => data.isActive ? classes.active : ""} to='/countdown' >
+                    Count Down
+                </NavLink>
             </Menu>
 
 

@@ -57,6 +57,10 @@ const MainNavigation = () => {
                 <NavLink onClick={closeSideBar} className={(data) => data.isActive ? classes.active : ""} to='/countdown' >
                     Count Down
                 </NavLink>
+
+                <NavLink onClick={closeSideBar} className={(data) => data.isActive ? classes.active : ""} to='/evenorodd' >
+                    Even or Odd
+                </NavLink>
             </Menu>
 
 
